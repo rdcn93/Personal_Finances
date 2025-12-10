@@ -14,4 +14,14 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Categoria\" />
+    <Folder Include="Features\Banco\" />
+    <Folder Include="Features\Moneda\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Personal_Finances.Domain\Personal_Finances.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
